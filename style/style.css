@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: #e67e22;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  display: block;
+  padding: 15px 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+nav ul li a:hover {
+  background-color: #bf6516;
+}
+
+header {
+  height: 80vh;
+  background: url("https://www.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_38669459.htm#fromView=search&page=1&position=1&uuid=793dc091-8a7a-44ee-9181-163cefa46940&query=d%C3%A9veloppeuse") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+section#about {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+section#about h2 {
+  color: #16a085;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+section#about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+section#contact {
+  padding: 40px 20px;
+  background-color: #bdc3c7;
+  text-align: center;
+}
+section#contact h2 {
+  color: #e67e22;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+section#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+section#contact form input, section#contact form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cfd9db;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: vertical;
+}
+section#contact form button {
+  background-color: #16a085;
+  border: none;
+  color: white;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+section#contact form button:hover {
+  background-color: #0d5d4d;
+}
+
+@media (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

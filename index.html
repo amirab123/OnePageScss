@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Mon Site  </title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <h1>Bienvenue sur mon site</h1>
+  </header>
+
+  <section id="about" class="container">
+    <h2>À propos de moi</h2>
+    <p>
+      Je suis passionné par le développement web et la création de sites modernes, élégants et responsives. Ce site est un exemple de ce que l'on peut réaliser avec SCSS et du design responsive.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+   <form id="contactForm"  novalidate>
+  <input type="text" id="name" placeholder="Votre nom" required />
+  <input type="email" id="email" placeholder="Votre email" required />
+  <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+  <button type="submit">Envoyer</button>
+  <div id="responseMessage" class="message"></div>
+</form>
+  </section>
+<script src="script/script.js"></script>
+</body>
+</html>
