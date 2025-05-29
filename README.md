@@ -1,6 +1,6 @@
 # OnePageScss
-Description du projet
-Ce projet est une page web simple réalisée avec HTML, SCSS et JavaScript.
+Description du projet : 
+ une page web simple réalisée avec HTML, SCSS et JavaScript.
 
 Fonctionnalités principales :
 Design responsive adapté aux mobiles et aux écrans desktop grâce à SCSS.
